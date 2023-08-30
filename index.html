@@ -3,83 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/index.css" />
+    <title>CW_3_HTML</title>
+    <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
-    <!-- <p>
-      <i>Hello world!</i>
-      <b>Hello world!</b>
-      <br />
-      Hello world!
-    </p>
-
-    h1, h2 ... h6
-
-    <h1>test1</h1>
-    <h2>test2</h2>
-    <h3>test3</h3>
-    <h4>test4</h4>
-    <h5>test5</h5>
-    <h6>test6</h6>
-
-    <div class="bg">
-      <h1 class="head">Test 1</h1>
-      <h1 id="header2">Test 2</h1>
-      <h1 id="header3" ; class="head">Test 3</h1>
-      <img
-        src="https://kino.24tv.ua/resources/photos/news/202011/1466618.jpg?v=1661266842000"
-        alt="asd"
-      />
-    </div> -->
-
-    <head>
-      Card
-    </head>
-
+    <header>
+      <ul class="menu">
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="pages/about.html">About</a>
+        </li>
+      </ul>
+    </header>
     <main>
-      <section class="hero">
-        <img src="img/card.png" alt="" />
-        <h1 class="hero__title">Мицько Мар’яна</h1>
-        <h2 class="hero__subtitle">Лікар-невропатолог</h2>
-      </section>
-      <!-- <section class="hero">HERO</section>
-      <section>SECT 1</section>
-      <section>SECT 2</section>
-      <section>SECT 3</section>
-      <section class="box_model">
-        <div>test</div>
-      </section>
-      <section>
-        <ol start="1" type="I">
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-        </ol>
-      </section>
-      <section>
-        <ul class="menu">
-          <li>
-            <a
-              target="_blank"
-              href="https://www.youtube.com/watch?v=V1_2mV48lOk&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=6"
-              >test</a
-            >
-          </li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-        </ul>
-      </section> -->
+      <video
+        src="/media/Dreadwing - Клип на фильм Дэдпул.mp4"
+        width="600px"
+        height="400px"
+        controls
+        poster="/img/deadpool.jpg"
+        loop
+      ></video>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/_7-xFqEcUNI?si=Ay39Ekpx5zmXrkMt"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <audio src="/audio/Imagine Dragons - Believer.mp3" controls></audio>
+      <div style="background-image: url(/img/deadpool.jpg)" class="round"></div>
+      <div class="test__element">
+        <div class="test__element_one">test</div>
+      </div>
     </main>
-
-    <footer>Footer</footer>
+    <footer></footer>
   </body>
 </html>

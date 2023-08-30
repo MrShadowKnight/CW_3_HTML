@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-image: url("/img/deadpool.jpg");
+  /* background-image: url("../../img/barbie.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* size */
+  width: 100vw;
+  height: 100vh;
+}
+.ul {
+  margin: 0;
+}
